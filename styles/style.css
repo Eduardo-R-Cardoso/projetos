@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@font-face {
+    font-family: 'glitch';
+    src: url(../fonts/Glitch\ inside.otf)
+}
+
+:root {
+    --cor0 : #0D0D0D;
+    --cor1 : #4F5359;
+    --cor2 : #BF9004;
+    --cor3 : #F2E205;
+    --corSombra : #35373b59;
+    --fonte1 : 'glitch', 'Audiowide', monospace;
+    --fonte2 : 'Audiowide', monospace;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: radial-gradient(circle, var(--cor1) 60%,var(--cor0))
+}
+
+main {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px var(--cor0);
+    min-width: 400px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+h1 {
+    background-color: var(--cor2);
+    font-family: var(--fonte1);
+    font-size: 3em;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+
+h2 {
+    color: var(--cor3);
+    font-family: var(--fonte2);
+}
+
+h2 a {
+    color: var(--cor3);
+    font-family: var(--fonte2);
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+    color: #fff;
+    text-indent: 10px;
+    line-height: 1.5em;
+}
+
+p a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
