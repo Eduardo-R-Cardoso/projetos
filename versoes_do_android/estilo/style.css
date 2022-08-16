@@ -111,7 +111,7 @@ p > a {
 }
 
 main a::after {
-    content: '\0020\1F517';
+    content: '\1F517';
 }
 
 p > a:hover {
